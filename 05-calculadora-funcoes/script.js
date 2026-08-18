@@ -3,26 +3,38 @@
 */
 
 function somar(a, b) {
-  // TODO
+  return a + b
 }
 
 function subtrair(a, b) {
-  // TODO
+  return a - b
 }
 
 function multiplicar(a, b) {
-  // TODO
+  return a * b
 }
 
 function dividir(a, b) {
-  // TODO:
-  // Trate divisão por zero.
-}
+  if (b === 0 )
+    return
+} 
+
+return a / b
 
 function calcular(a, b, operacao) {
-  // TODO:
-  // Escolha a função correta conforme a operação.
-  // Trate também uma operação desconhecida.
+
+  if (operacao === 'soma') {
+    return somar(a,b)
+  }else if (operacao === 'subtrair') {
+    return subtrair(a,b)
+  }else if (operacao === 'dividir') {
+    return dividir(a,b)
+  }else if (operacao === 'multiplicar') {
+    return multiplicar(a,b)
+  } else{
+    return "erro! Operação inválida"
+  }
+
 }
 
 // TODO:
