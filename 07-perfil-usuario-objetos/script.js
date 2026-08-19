@@ -2,6 +2,17 @@
   EXERCÍCIO 07 — PERFIL DE USUÁRIO
 */
 
+const usuario = {
+  nome: "Paulo",
+  idade: 34,
+  email: "teste@gmail.com",
+  cidade: "São Paulo",
+  Ativo: true
+}
+
+
+
+
 // TODO:
 // Crie um objeto usuario com:
 // nome, idade, email, cidade e ativo.
